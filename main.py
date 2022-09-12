@@ -33,6 +33,8 @@ def read_file(file_dir):
     a = file.read()
     for i in range(len(a)):
         print(a[i])
+
+    print(a)
     file.close()
 
 # this function dor write to file anything
