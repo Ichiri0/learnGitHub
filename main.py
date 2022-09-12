@@ -6,8 +6,14 @@ def func(a, b):
     result = a + b
     return result
 
+def hui():
+    a = [i for i in range(0, 10)]
+    for j in range(len(a)):
+        print(a[j])
 
-num1, num2 = 10, 20
+hui()
 
-print(func(a=num1, b=num2))
+num1, num2 = 10, 15
+
+print(func(num1, num2))
 
