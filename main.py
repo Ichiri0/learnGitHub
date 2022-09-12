@@ -13,7 +13,9 @@ def hui():
 
 hui()
 
-num1, num2 = 10, 15
+num1 = int(input('Введите первое число: '))
+num2 = int(input('Введите второе число: '))
+
 
 print(func(num1, num2))
 
