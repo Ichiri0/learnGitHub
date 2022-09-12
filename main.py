@@ -1,13 +1,17 @@
-print('Hello, World!')
-
+# this is test branch
 
 def func(a, b):
     print('Сейчас сложатся два числа.')
     result = a + b
     return result
 
+# this function reads file
+def test(file_dir):
+    file = open(file_dir, 'r')
+    a = file.read()
+    for i in range(len(a)):
+        print(a[i])
+    file.close()
 
-num1, num2 = 10, 20
-
-print(func(a=num1, b=num2))
+test("text.txt")
 
